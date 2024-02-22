@@ -5,7 +5,7 @@ module "minikube" {
   cluster_name  = "roboshop"
   aws_instance_type = "t3.medium"
   ssh_public_key = "~/devops-01.pub"
-  aws_subnet_id = "subnet-0ea509ad4cba242d7" #replace your default subnet id
+  aws_subnet_id = "subnet-09a6ce9cc9fe83f08" #replace your default subnet id
   # by default centos7 will be used
   #ami_image_id = "ami-b81dbfc5"
   hosted_zone = "devrobo.shop"
